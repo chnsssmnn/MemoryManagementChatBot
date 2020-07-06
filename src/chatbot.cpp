@@ -106,7 +106,7 @@ ChatBot &ChatBot::operator=(ChatBot && source)
     source._rootNode = nullptr;
     source._chatLogic = nullptr;
     
-    std::cout << "ChatBot Move Constructor" << std::endl;
+    std::cout << "ChatBot Move Assignment Operator" << std::endl;
 
     return *this;
 }
